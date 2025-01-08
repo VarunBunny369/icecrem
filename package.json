@@ -1,3 +1,12 @@
-git add .
-git commit -m "Fix: Add start script"
-git push
+{
+  "name": "icecrem",
+  "version": "1.0.0",
+  "description": "An example project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
